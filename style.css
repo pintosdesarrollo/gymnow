@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Miriam+Libre&family=Montserrat:wght@200;300&family=Open+Sans&family=Oswald:wght@300&family=Rhodium+Libre&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    /* border: solid red 2px; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #080e26;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    /* justify-content: space-between; */
+    /* Para espaciar el logo y el nav en desktop */
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #080e26;
+}
+/* .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  } */
+
+.logo {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+
+.primerSeccion {
+    text-align: center;
+    height: 500px;
+    color: white;
+    background-image: url('fondo-gym.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2px;
+}
+
+.primerSeccion h2 {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+
+.primerSeccion div {
+    position: absolute;
+    top: 270px;
+    margin: 10px;
+}
+
+.quienesSomos {
+    display: block;
+    color: white;
+}
+.quienesSomos h2 {
+    margin-top: 50px;
+    text-align: start;
+    margin-left: 70px;
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+.textoo {
+    margin: 70px;
+    text-align: start;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.contendorDeQuien {
+    display: flex;
+    justify-content: center;
+}
+
+.cardQuien {
+    display: block;
+    background-color: #283157;
+    border-radius: 10px;
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+.cardQuien h3 {
+    margin: 15px;
+    margin-top: 40px;
+}
+.cardQuien p {
+    margin: 15px;
+    margin-top: 10px;
+}
+
+.programasEntrenmiento {
+    color: white;
+    
+}
+.programasEntrenmiento h2 {
+    margin-top: 70px;
+    text-align: start;
+    margin-left: 70px;
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+
+.contendorDeProgramas {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.cardProgramas {
+    width: 300px;
+    margin: 25px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.cardProgramas h3 {
+    text-align: left;
+}
+
+.cardProgramas p {
+    text-align: left;
+}
+
+section {
+    margin-bottom: 45px;
+}
+.ubicacion h2 {
+    font-size: 2rem;
+}
+.contenedorUbicacion {
+    display: flex;
+    justify-content: center;
+}
+.cardUbicacion {
+    width: 350px;
+    border: solid black 2px;
+    margin: 15px;
+    color: white;
+}
+.cardUbicacion img {
+    width: 300px;
+    height: 150px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.by {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f0f0f0;
+}
+
+.imgRedes {
+    width: 50px;
+    height: 50px;
+}
+
+/* FORMULARIO */
+.contacto {
+    display: flex;
+}
+
+.primerContacto {
+    margin: 15px;
+    color: white;
+    border: 2px solid black;
+}
+
+.imgContact {
+    width: 750px;
+    height: 300px;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.linkWhat {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/******************************************************************************/
+
+@media (max-width: 767px) {
+    nav li {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 18px;
+
+    }
+
+    .primerSeccion {
+        text-align: center;
+        height: 250px;
+        width: 100vw;
+        color: white;
+        background-image: url('fondo-gym.png');
+    }
+
+    .primerSeccion h2 {
+        font-size: 24px;
+        margin: 10px;
+
+    }
+
+    .primerSeccion h4 {
+        font-size: 17px;
+        margin: 10px;
+        margin-top: 10px;
+    }
+
+    .primerSeccion div {
+        position: absolute;
+        top: 110px;
+        margin: -10px;
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Centrar horizontalmente los elementos */
+        justify-content: center;
+    }
+
+    .quienesSomos h2 {
+        margin-top: 35px;
+        text-align: center;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .programasEntrenmiento h2 {
+        margin-top: 35px;
+        text-align: center;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+    
+    .textoo {
+        margin: 10px;
+        text-align: center;
+    }
+    .contendorDeQuien {
+        display: block;
+        align-items: center;
+
+    }
+
+    .cardQuien {
+        margin: 15px;
+        width: 280px;
+        height: 230px;
+        margin-top: 35px;
+    }
+
+
+    .cardQuien h3 {
+      margin: 10px;
+      margin: 25px;
+    }
+    .cardQuien p {
+        margin: 8px;
+        margin-top: 10px;
+    }
+    .contenedorUbicacion {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .contendorDeProgramas {
+        display: block;
+        align-items: center;
+
+    }
+
+    .textoo {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .quienesSomos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Centrar horizontalmente los elementos */
+        justify-content: center;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    .contacto {
+        display: block;
+    }
+
+    .imgContact {
+        display: none;
+    }
+
+    .formulario {
+        padding: 10px;
+        max-width: 95%;
+    }
+
+    .input-field,
+    .submit-button {
+        width: 100%;
+    }
+
+    form {
+        margin: 15px;
+    }
+    .cardUbicacion {
+        width: 300px;
+    }
+    .cardUbicacion img {
+        width: 100%;
+    }
+
+}
